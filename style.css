@@ -1,0 +1,920 @@
+* {
+  margin: auto;
+  padding: auto;
+}
+
+/**Colores,Fuentes**/
+
+:root {
+  --Princpialnav: #4a98d8;
+  --letrasdelnav: #fff;
+  --hover: #65cfec;
+  --Fuentedetitulos: "Road Rage", cursive;
+  --Fuenteotradetitulos: "Lexend Exa", sans-serif;
+  --Fuenteparrafosgrid: 'Viga', sans-serif;
+}
+
+/** Normalize **/
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/**letras**/
+
+.lili {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+@media (min-width: 600px) {
+     .lili {
+       font-size: 5rem;
+       font-weight: bold;
+     }
+}
+
+.ola {
+  font-size: 2rem;
+}
+
+@media (min-width: 600px) {
+     .ola {
+       font-size: 2rem;
+     }
+}
+
+/**SectorNav**/
+
+.navi {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: var(--Princpialnav);
+  height: 50px;
+  text-decoration: none;
+}
+
+.fuentes {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: var(--letrasdelnav);
+  text-decoration: none;
+  appearance: none;
+}
+
+.fuentes:hover {
+  text-decoration: none;
+  color: var(--hover);
+}
+
+/**Sectorjumbotron**/
+
+.bg-jumbotron {
+  background-image: url(../pexels-photo-8094459.jpeg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+}
+
+/**btn**/
+
+.btn,
+.btn-success {
+  width: 300px;
+  margin: 5rem 0 0 0;
+  border-bottom: 100%;
+}
+
+.bienvenido {
+  font-size: 1.5rem;
+}
+
+/**Contenedormisiones**/
+
+.contenedor {
+  padding: 12rem 0 0 0;
+  
+}
+
+.imagen {
+  background-image: url(../imagenes/photo-1543342140-668798b54578.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: cover;
+  height: 230vh;
+}
+
+/**Gridimagencontenedor**/
+@media (min-width: 600px) {
+     .imagen {
+       height: 260vh;
+     }
+}
+
+@media (min-width: 800px) {
+     .imagen{
+       height: 230vh;
+      }
+ }
+ 
+ 
+ 
+ @media (min-width: 1250px) {
+     .imagen{
+      height: 150vh;
+     }
+ }
+
+/**Gridmisiones**/
+
+.gigi {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 35rem), 1fr));
+  gap: 4rem;
+  grid-auto-rows: 28rem;
+}
+
+.texto-titulo {
+  text-align: center;
+  margin: 0 0 10rem 0;
+  font-size: 5rem;
+  color: var(--letrasdelnav);
+  font-family: var(--Fuenteotradetitulos);
+  font-weight: bold;
+  text-shadow: 2px 4px 1px #7b7289;
+}
+
+.imagenesdelgrid {
+  padding: 2rem;
+}
+
+.imagengrid {
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  display: flex;
+}
+
+/**imagengridmisiones**/
+@media (min-width: 600px) {
+     .imagengrid {
+       width: 150px;
+       height: 150px;
+     }
+}
+
+.imagengrid1 {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.informacion {
+  padding: 2rem;
+}
+
+.textomisiones {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--letrasdelnav);
+  font-family: var(--Fuenteparrafosgrid);
+}
+
+/**Contenedorbariloche**/
+
+.contenedor1 {
+  padding: 12rem 0;
+  
+  
+}
+
+.imagenbariloche {
+  background-image: url(../imagenes/photo-1617548437735-92d875423353.jpg);
+  background-position: center center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 260vh;
+}
+
+@media (min-width: 600px) {
+  .imagenbariloche {
+       height: 260vh;
+     }
+}
+
+
+
+@media (min-width: 800px) {
+ .imagenbariloche {
+ height: 230vh;
+     }
+}
+
+
+
+@media (min-width: 1250px) {
+  .imagenbariloche {
+ height: 150vh;
+    }
+}
+
+.grid21 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 35rem), 1fr));
+  gap: 4rem;
+  grid-auto-rows: 28rem;
+}
+
+.titulo-bariloche {
+  font-size: 5rem;
+}
+/**imagenesbariloche**/
+
+.imagenesdelgrid1 {
+  padding: 2rem;
+}
+
+.barilocheone {
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  display: flex;
+}
+
+/**achicamientodeimagenbariloche**/
+
+@media (min-width: 600px) {
+  .barilocheone {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    display: flex;
+  }
+     
+}
+
+/**Contenedortexto**/
+
+.informacion1 {
+  padding: 2rem;
+}
+
+.texto-bariloche {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: var(--letrasdelnav);
+  font-family: var(--Fuenteparrafosgrid);
+}
+
+/**Contenedorsalta**/
+
+.contenedor2 {
+  padding: 12rem 0;
+
+}
+
+.imagendesalta2 {
+  background-image: url(../imagenes/photo-1603415017286-5c4e3492610f.jpg);
+  background-position: center center;
+  background-repeat: repeat;
+  background-size: cover;
+  height: 230vh;
+}
+
+/**responsiveimagenes**/
+
+@media (min-width: 600px) {
+     .imagendesalta2 {
+       height: 260vh;
+     }
+}
+
+@media (min-width: 800px) {
+  .imagendesalta2 {
+    height: 230vh;
+  }
+}
+
+
+
+@media (min-width: 1250px) {
+  .imagendesalta2 {
+    height: 150vh;
+  }
+}
+
+
+/**grid**/
+
+.grid22 {
+  display: grid;
+  gap: 4rem;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 35rem), 1fr));
+  grid-auto-rows: 28rem;
+}
+
+/**Tamañosdeimanges**/
+
+.imagenesdelgrid3 {
+  padding: 2rem;
+}
+
+.imagendesalta {
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/**imagenresponsive**/
+
+@media (min-width: 600px) {
+     .imagendesalta {
+       width: 150px;
+       height: 150px;
+     }   
+}
+
+
+
+
+
+/**textos**/
+
+.informacionsalta {
+  padding: 2rem;
+}
+
+.texto-salta {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--letrasdelnav);
+  font-family: var(--Fuenteparrafosgrid);
+}
+
+/**Secciontierradelfuego**/
+
+.contenedor3 {
+  padding: 12rem 0;
+  
+}
+
+.imagendetierradelfuego {
+  background-image: url(../imagenes/photo-1606862688869-1d950c01ad6f.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 230vh;
+}
+
+/**contenedorimagenresponsive**/
+
+
+@media (min-width: 600px) {
+  .imagendetierradelfuego{
+    height: 260vh;
+  }
+}
+
+
+@media (min-width: 800px) {
+  .imagendetierradelfuego {
+    height: 230vh;
+  }
+}
+
+
+
+@media (min-width: 1250px) {
+  .imagendetierradelfuego {
+    height: 150vh;
+  }
+  
+}
+
+
+/**grid**/
+
+.grid23 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 35rem), 1fr));
+  gap: 4rem;
+  grid-auto-rows: 28rem;
+}
+
+.imagenesdelgrid3 {
+   padding: 2rem;
+}
+
+.imagen-tierradelfuego {
+  width: 120px;
+  height: 120px;
+  border-radius: 100%; 
+  display: flex;
+}
+
+@media (min-width: 600px) {
+     .imagen-tierradelfuego {
+       width: 150px;
+       height: 150px;
+       display: flex;
+     }
+}
+
+/**Texto**/
+.informaciontierradelfuego {
+  padding: 2rem;
+}
+
+.texto-tierradelfuego {
+  
+  font-size: 1.2rem;
+  color: var(--letrasdelnav);
+  font-weight: bold;
+  font-family: var(--Fuenteparrafosgrid);
+}
+
+
+
+/**seccionrioja**/
+
+.contenedor4 {
+  padding: 12rem 0;
+ 
+}
+
+.imagenrioja1 {
+  background-image: url(../imagenes/photo-1634847098676-40b96769b9be.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 235vh;
+}
+
+/**contenedorimagenresponsive**/
+
+
+@media (min-width: 600px) {
+  .imagenrioja1{
+    height: 260vh;
+  }
+}
+
+@media (min-width: 800px) {
+  .imagenrioja1 {
+    height: 230vh;
+  }
+}
+
+@media (min-width: 1250px) {
+  .imagenrioja1 {
+    height: 150vh;
+  }
+  
+}
+
+/**grid24**/
+
+.grid24 {
+  display: grid;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 35rem), 1fr));
+  gap: 4rem;
+  grid-auto-rows: 28rem;
+}
+
+
+
+/**imagenes**/
+
+.imagenesrioja {
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  display: flex;
+ 
+}
+
+
+.imagenesdelgrid4 {
+  padding: 2rem;
+}
+  
+/**imagenesresponsive**/
+
+@media (min-width: 600px ) {
+  .imagenesrioja {
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+  }
+}
+
+
+
+
+/**textos**/
+
+.informacionrioja {
+  padding: 2rem;
+}
+
+.texto-rioja {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: var(--letrasdelnav);
+  font-family: var(--Fuenteparrafosgrid);
+}
+
+
+/**SeccionBuenosaires**/
+
+.contenedor5 {
+  padding: 12rem 0;
+  
+}
+
+/**Imagendentrodelcontenedor**/
+
+.imagenbuenosairesfondo {
+  background-image: url(../imagenes/buenos-aires-argentina-650x442.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 238vh;
+}
+
+@media (min-width: 600px) {
+     .imagenbuenosairesfondo {
+       height: 260vh;
+     }
+}
+
+@media (min-width: 800px) {
+     .imagenbuenosairesfondo {
+       height: 230vh;
+     }
+}
+
+@media (min-width: 1250px) {
+     .imagenbuenosairesfondo {
+       height: 150vh;
+     }
+     
+}
+
+/**grid**/
+
+.grid25 {
+  display: grid;
+  gap: 2rem;
+  grid-auto-rows: 28rem;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 35rem), 1fr));
+}
+
+
+
+/**imagenesdelgrid**/
+.imagenesgridbsas {
+ padding: 2rem;
+}
+
+.imagenbsas {
+  display: flex;
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+}
+
+/**imagenesresponsive**/
+
+@media (min-width: 600px ) {
+  .imagenbsas {
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+  }
+     
+}
+
+/**textoss**/
+
+.informacion-bsas {
+  padding: 2rem;
+}
+
+
+.texto-bsas {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--letrasdelnav);
+  font-family: var(--Fuenteparrafosgrid);
+}
+
+/**seccionmendoza**/
+
+.contenedor6 {
+  padding: 12rem 0;
+}
+
+.imagenmendoza6 {
+  background-image: url(../imagenes/7CEQITORVRH2FF6IMKE7FECCY4.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 235vh;
+}
+
+
+/**Reponsivefotodemendoza**/
+
+
+
+
+@media (min-width: 600px) {
+  .imagenmendoza6 {
+    height: 260vh;
+  }
+}
+
+@media (min-width: 800px) {
+  .imagenmendoza6 {
+    height: 230vh;
+  }
+}
+
+@media (min-width: 1250px) {
+  .imagenmendoza6 {
+    height: 150vh;
+  }
+  
+}
+/**grid**/
+
+.grid26 {
+  display: grid;
+  gap: 4rem; 
+  grid-auto-rows: 28em;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 35rem), 1fr));
+}
+
+/**imagenes**/
+
+.imagenmendoza {
+  height: 120px;
+  width: 120px;
+  border-radius: 100%;
+  display: flex;
+}
+
+@media (min-width: 600px) {
+     .imagenmendoza {
+      height: 150px;
+      width: 150px;
+      border-radius: 100%;
+      display: flex;
+     }
+}
+
+/**informacion**/
+.imagengridbmendoza {
+  padding: 2rem;
+
+}
+
+
+.informacion-mendoza {
+  padding: 2rem;
+}
+
+.texto-mendoza {
+  color: var(--letrasdelnav);
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: var(--Fuenteparrafosgrid);
+}
+
+
+
+
+
+/**seccionopinion**/
+
+.contenedorcon1 {
+  padding: 12rem 0;
+ 
+}
+
+.imagencontenedor1 {
+  background-image:url(../imagenes/Screenshot-2020-10-16-at-13.35.52.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 260vh;
+}
+
+@media (min-width: 600px) {
+     .imagencontenedor1 {
+       height: 270vh;
+     }
+}
+
+@media (min-width: 800px) {
+     .imagencontenedor1 {
+       height: 250vh;
+     }
+}
+
+@media (min-width: 1250px) {
+     .imagencontenedor1 {
+       height: 260vh;
+     }
+}
+
+
+.titulo-opinion4 {
+  color: var(--letrasdelnav);
+  text-align: center;
+  font-size: 5rem;
+  font-family: var(--Fuenteotradetitulos);
+  font-weight: bold;
+  text-shadow: 2px 4px 1px #7b7289;
+}
+
+
+.contenedoropiniones {
+  background-color: var(--Princpialnav);
+  height: 200vh;
+}
+
+/**responsive-contenedor**/
+ @media (min-width: 600px) {
+   .contenedoropiniones {
+     height: 200vh;
+   }
+      
+ }
+
+
+ @media (min-width: 800px) {
+      .contenedoropiniones {
+        height: 159vh;
+      }
+           
+  }
+
+ @media (min-width: 1250px) {
+      .contenedoropiniones {
+        height: 100vh;
+      }
+ }
+
+
+.linea{
+  width: 50px;
+  height: 3px;
+  background-color: #6EC1E4;
+}
+
+/**gridopiniones**/
+
+
+.gridopiniones {
+  display: grid;
+  gap: 4rem;
+  grid-auto-rows: 30rem;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 35rem), 1fr));
+}
+
+.imagenopinion {
+  width: 220px;
+  height: 100px;
+  display: flex;
+  border-radius: 100%;
+  
+}
+
+
+.informacion-opinion {
+  padding: 5rem;
+ 
+ 
+}
+
+.opinion-text {
+  font-size: 1.2rem;
+  color: var(--letrasdelnav);
+  font-weight: bold;
+  font-family: var(--Fuenteparrafosgrid);
+}
+
+@media (min-width: 600px) {
+   .opinion-text {
+     font-size: 1.2rem;
+     display: block;
+   }
+}
+
+/**foooter**/
+
+.footer {
+  background-color:var(--Princpialnav);
+  height: 50vh;
+}
+
+
+@media (min-width: 600px ) {
+     .footer {
+       height: 70vh;
+     }
+}
+
+@media (min-width: 800px) {
+     .footer {
+       height: 60vh;
+     }
+}
+
+@media (min-width: 1250px) {
+     .footer {
+       height: 60vh;
+     }
+}
+.contenedorflex{
+  display: flex;
+}
+
+/**hr, titulos y textos**/
+
+.linea1 {
+  background-color: var(--hover);
+  width:60px;
+  height: 2px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ta {
+  text-decoration: none;
+  appearance: none;
+  color: #98daf6;
+  font-size: 1.2rem;
+}
+
+.contacto {
+  text-align: center;
+  text-decoration: none;
+  appearance: none;
+  margin: auto;
+  padding: 1.5rem;
+  font-size: 1.6rem;
+  font-family: var(--Fuenteotradetitulos);
+  font-weight: bold;
+  text-shadow: 2px 4px 1px #7b7289;
+  color: var(--letrasdelnav);
+}
+
+@media (min-width: 1250px) {
+     .contacto {
+       font-size: 2rem;
+     }
+}
+
+.principalenlaces {
+  text-decoration: none;
+  appearance: none;
+  list-style: none;
+  margin: auto;
+  padding: auto;
+}
+
+/**Texto-footer**/
+
+.texto-footer {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #fff;
+  margin: 4rem 0 0 0;
+}
+
+@media (min-width: 360px) {
+     .texto-footer {
+      padding: 2rem;
+     }
+}
